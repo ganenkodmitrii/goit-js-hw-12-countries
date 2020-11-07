@@ -18,3 +18,30 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+.input-search {
+  margin: 30px;
+  padding: 5px;
+  padding-left: 15px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.box {
+  margin: 30px;
+}
+
+.name-country {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery-thumb {
+  margin-left: 50px;
+}
