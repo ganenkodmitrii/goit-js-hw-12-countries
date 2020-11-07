@@ -1,4 +1,4 @@
-import API from "./api-service.js";
+import API from "./fetchCountries.js";
 import getRefs from "./get-refs.js";
 import contriesNameListTpl from '../templates/countries-name-list.hbs';
 import cardCountryTmp from "../templates/country-card.hbs";
