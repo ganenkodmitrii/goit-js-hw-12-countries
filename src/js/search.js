@@ -34,24 +34,20 @@ function onSearchEl() {
 
 
 function checkingTheNumberOfCountries(countries) {
-     if (countries.length > 10) {
-       clearMarkup();
-       toMuchCountries();
-  
-     }
+    clearMarkup();
+    
+    if (countries.length > 10) {
+        toMuchCountries();
+    }
      else if (countries.length <= 10 && countries.length > 1) {
-       clearMarkup();
-       renderCountryCard(contriesNameListTpl, countries);
-  
-     }
+        renderCountryCard(contriesNameListTpl, countries);
+    }
      else if (countries.length === 1) {
-       clearMarkup();
-       renderCountryCard(cardCountryTmp, countries[0]);
-     }
+        renderCountryCard(cardCountryTmp, countries[0]);
+    }
      else {
-      clearMarkup();
-      noResult();
-     }
+        noResult();
+    }
 }
 
 
